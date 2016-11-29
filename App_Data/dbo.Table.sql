@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[Table]
+(
+	[Id] INT NOT NULL PRIMARY KEY, 
+    [Title] VARCHAR(50) NOT NULL, 
+    [Price] MONEY NOT NULL, 
+    [URL] VARCHAR(MAX) NULL
+)
